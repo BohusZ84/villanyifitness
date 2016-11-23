@@ -1,0 +1,429 @@
+HTML,BODY{
+	margin: 0;
+	padding: 0;
+	background: black url(img/vfitness_background.jpg) scroll repeat top center;
+	font-size: 12px;
+}
+
+*{
+	font-family: Arial;
+}
+
+#wrapper{
+	width: 980px;
+	margin: 0 auto;
+}
+
+.nyari_akcio{
+	position: absolute; 
+	width: 410px; 
+	height: 142px; 
+	background: transparent url(img/nyari_akcio.png) scroll repeat top center;
+	margin: -12px 0 0 283px;
+	z-index: 10;
+	display:  none;
+}
+
+#szepkartya{
+	position: absolute; 
+	width: 273px; 
+	height: 34px; 
+	background: transparent url(img/szepkartya.png) scroll repeat top center;
+	margin: -35px 0 0 8px;
+	z-index: 10;
+	display:  block;
+}
+
+.top{
+	width: 980px;
+	height: 285px;
+	background: transparent url(img/topbg.jpg) scroll repeat top center;
+	margin-top: 13px;	
+}
+
+.primary-links{
+	width: 980px;
+	height: 54px;
+	background: transparent url(img/menu.jpg) scroll repeat top center;
+
+}
+
+.cleardiv{
+	clear: both;
+}
+
+UL.primary-links LI{
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.primary-links LI A{
+	background: transparent url(img/menu.jpg) scroll repeat top center;
+	text-indent: -10000px;
+	outline: none;
+	display: block;
+	height: 54px;
+	padding: 0;
+	margin: 0;
+}
+
+.fullbottom{
+	position: fixed;
+	bottom: 0;
+}
+
+.go_full_gallery{
+	display: block;
+	position: absolute;
+	outline: none;
+	width: 140px;
+	height: 23px;
+	margin: 154px 0 0 820px;
+}
+	
+/* fooldal */
+.primary-links .menu-125 A {
+	width: 105px;
+	background-position: 0 0;
+}
+.primary-links .menu-125 A:hover , .primary-links .menu-125 A.active {
+	background-position: 0 -54px;
+}
+/* bemutatkozas */
+.primary-links .menu-126 A{
+	width: 153px;
+	background-position: -105px 0;	
+}
+.primary-links .menu-126 A:hover , .primary-links .menu-126 A.active {
+	background-position: -105px -54px;
+}
+/* szolgaltatasok es arak */
+.primary-links .menu-127 A{
+	width: 229px;
+	background-position: -259px 0;	
+}
+.primary-links .menu-127 A:hover , .primary-links .menu-127 A.active {
+	background-position: -259px -54px;
+}
+
+/* fitness órarend */
+.primary-links .menu-128 A{
+	width: 176px;
+	background-position: -487px 0;	
+}
+.primary-links .menu-128 A:hover , .primary-links .menu-128 A.active {
+	background-position: -487px -54px;
+}
+/* edzoink */
+.primary-links .menu-129 A{
+	width: 102px;
+	background-position: -663px 0;	
+}
+.primary-links .menu-129 A:hover , .primary-links .menu-129 A.active {
+	background-position: -663px -54px;
+}
+/* kepgaleria */
+.primary-links .menu-130 A{
+	width: 129px;
+	background-position: -765px 0;	
+}
+.primary-links .menu-130 A:hover , .primary-links .menu-130 A.active {
+	background-position: -765px -54px;
+}
+
+/* hírek */
+.primary-links .menu-131 A{
+	width: 85px;
+	background-position: -894px 0;	
+}
+.primary-links .menu-131 A:hover , .primary-links .menu-131 A.active {
+	background-position: -894px -54px;
+}
+.community{
+	height: 38px;
+	background: transparent url(img/followus.png) no-repeat scroll 699px 0px;
+}
+
+.also_kepgaleria{
+	height: 293px;
+	width: 980px;
+	background: transparent url(img/also_kepgaleria.png) no-repeat scroll left top;
+}
+.kepgaleria_box TABLE{
+	margin: 0 0 0 60px;
+}
+
+
+.kepgaleria_box TBODY{
+	border: 0;
+}
+.kepgaleria_box IMG{
+	border: 3px solid #7b7b7b;
+	margin: 20px 10px 10px 10px;
+	box-shadow: 0px 0px 22px #3a3a3a;
+	-moz-box-shadow: 0px 0px 22px #3a3a3a;
+	-webkit-box-shadow: 0px 0px 22px #3a3a3a;
+}
+
+.kepgaleria_box .prev_video_page, .kepgaleria_box .next_video_page{
+	width: 44px;
+	height: 44px;
+	background: transparent url(img/gal_pager_left.png) no-repeat scroll left top;
+	position: absolute;	
+	margin: 50px 0 0 0px;
+	outline: none;
+}
+
+.kepgaleria_box .next_video_page{
+	background: transparent url(img/gal_pager_right.png) no-repeat scroll left top;
+	float: right;
+	margin: 50px 0 0 930px;	
+}
+
+.sulyzok_footer{
+	width: 987px;
+	height: 66px;
+	background: transparent url(img/sulyzok_footer.png) no-repeat scroll top left;
+}
+
+.community .fb,.community .rss{
+	display: block;
+	outline: none;
+	text-indent: -99999999px;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	font-size: 0px;
+}
+
+.community .fb{
+	margin: 9px 0 0 882px;
+}
+
+.community .rss{
+	margin: 9px 0 0 916px;
+}
+
+.top .top_pic{
+	background: transparent url(img/main_chick.png) no-repeat scroll top left;
+	width: 508px;
+	height: 289px;
+	position: absolute;
+	margin: -17px 0 0 424px;	
+}
+
+.partnerek_list_bottom{
+	position: absolute;
+	width: 980px;
+	height: 81px;
+	margin: 40px 0 0 0 ;
+	background: transparent url(img/partnerek.png) scroll no-repeat 40px 0;
+}
+
+.orange_button{
+	display: inline-block;
+	background-color: #fb8b27;
+	border: 1px solid #f85502;
+	color: white;
+	text-decoration: none;
+	padding: 0 10px 0 10px;
+}
+
+.orange_button:hover{
+	background-color: #fe9f4c;
+}
+
+.hirek_cont H3{
+	padding: 0;
+	margin: 0;
+}
+
+.hirek_cont P{
+	padding: 0;
+	margin: 0;
+	color: #585858;
+}
+
+
+.hirek_cont SPAN{
+	background-color: #ededed;
+	display: inline-block;
+	padding: 0 5px 0 5px;
+	font-size: 10px;
+	color: #7f7f7f;
+}
+
+
+.node-2-closediv, .node-3-closediv, .node-4-closediv, .node-5-closediv, .node-6-closediv, .node-7-closediv, .nodetype-hir-closediv{
+	background: white url(img/maincontent_closer.jpg) scroll no-repeat top left;
+	height: 7px;
+	width: 100%;
+	display: block;
+}
+#node-2,#node-3,#node-4,#node-5,#node-6,#node-7,.nodetype-hir{
+	padding: 55px 24px 0 24px;
+	width: 931px;	
+}
+
+#node-2{
+	background: white url(img/header_bemutatkozas.jpg) scroll no-repeat top left;
+}
+
+#node-3{
+	background: white url(img/header_szolgarak.jpg) scroll no-repeat top left;
+}
+
+#node-4{
+	background: white url(img/header_orarend.jpg) scroll no-repeat top left;
+}
+
+#node-5{
+	background: white url(img/header_edzoink.jpg) scroll no-repeat top left;
+}
+
+#node-6{
+	background: white url(img/header_kepgaleria.jpg) scroll no-repeat top left;
+}
+
+#node-7, .nodetype-hir{
+	background: white url(img/header_hirek.jpg) scroll no-repeat top left;
+}
+
+#node-3 TBODY{
+	border: 0;
+}
+#node-3 H2{
+	margin:0;
+}
+#node-3 TD{
+
+
+	vertical-align: top;
+}
+
+#node-3 TD TABLE TD{
+	border-bottom: 1px solid #e2e2e2;	
+	padding: 8px 0 8px 0;
+	margin: 0 20px 0 20px;
+}
+
+#node-3 TD TABLE{
+	margin: 10px 20px 0 0px;
+	width: 280px;
+}
+
+#node-3 TD TABLE .rteright{
+	width: 50px;
+}
+
+
+#node-3 .fitness TABLE{
+	margin-left: 0;
+}
+
+#node-3 TD A{
+	color: #f15500;
+	font-weight: bold;
+}
+
+#node-3 .tablefooter TD{
+	padding: 10px 0 10px 0;
+}
+
+
+/* ÓRAREND */
+
+#node-4 TD{
+	padding: 5px;
+	border: 1px solid #e2e2e2;
+}
+
+#node-4 TBODY{
+	border: 0;
+}
+
+
+#node-4 .oraoszlop{
+	width: 100px;
+}
+
+/* */
+
+
+/* GALÉRIA */
+
+#node-6 UL{
+	padding: 0;
+	margin:  0;
+}
+#node-6 LI{
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	padding: 13px;
+	font-style: italic;
+	cursor: pointer;	
+}
+#node-6 LI:hover,  #node-6 LI.selectedgallery{
+	color: #f15500;
+}
+#node-6 IMG{
+	border: 3px solid #b0b0b0;
+}
+#node-6 LI:hover IMG, #node-6 LI.selectedgallery IMG{
+	border: 3px solid #f15500;
+}
+
+#node-6 #kepgaleriak_keplista{
+	background-color: #f3f3f3;
+	border: 1px solid #dfdfdf;
+	padding: 20px;
+}
+
+#node-6 #kepgaleirak_ul{
+	margin-left: 20px;
+}
+
+#node-6 H1{
+	color: #929292;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 5px 0 5px 0;
+}
+
+/* */
+
+
+/* HIREK */
+
+#node-7 .hirelem{
+	border-bottom: 1px solid #dfdfdf;
+}
+
+#node-7 H2{
+	margin: 20px 0 0 0;
+	font-size: 14px;
+	display: inline-block;	
+}
+
+#node-7 H4{
+	margin: 10px 0 0 10px;
+	display: inline-block;
+	padding: 5px;
+	background-color: #EDEDED;
+	color: #7F7F7F
+}
+
+
+.orarend_valtozas{
+	width: 111px;
+	height: 40px;
+	position: absolute;
+	margin: -31px 0 0 521px;
+	background: transparent url(img/orarend_valtozas.png) scroll no-repeat top left;
+	
+	 
+}
+
+/* */

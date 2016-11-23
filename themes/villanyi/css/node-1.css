@@ -1,0 +1,56 @@
+#node-1 TABLE TBODY{
+	border: 0;
+	line-height: 20px;
+}
+
+TD.hirek_top, TD.nyitvatartas_top, TD.terkep_top{
+	width: 318px;
+	background: transparent url(../img/main_cont_bg.jpg) scroll no-repeat 0 0;
+	height: 57px;
+}
+
+TD.hirek_cont, TD.nyitvatartas_cont, TD.nyitvatartas_cont2, TD.terkep_cont{
+	background: transparent url(../img/main_cont_bg.jpg) scroll no-repeat 0 -57px;
+	height: 176px;
+	vertical-align: top;
+	padding:  0 24px 0 24px;
+}
+
+TD.nyitvatartas_top{
+	background-position: -318px 0;
+	width: 331px;
+}
+
+TD.terkep_top{
+	background-position: -649px 0;
+	width: 331px;
+}
+
+TD.nyitvatartas_cont{
+	background-position: -318px -57px;
+	padding:  0 24px 0 38px;
+}
+TD.nyitvatartas_cont2{
+	background-position: -490px -57px;
+}
+TD.terkep_cont{
+	background-position: -649px -57px;
+	padding:  0 24px 0 38px;
+}
+
+.nyitvatart_tablazat{
+	width: 269px;
+}
+.nyitvatart_tablazat TD{
+	border-top: 1px solid white;
+	border-bottom: 1px solid #e2e2e2;
+	padding: 5px 0 5px 0;
+}
+
+H2{
+	display: none;
+}
+
+#terkep_link{
+	margin-top: 5px;
+}
