@@ -1,238 +1,333 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu" lang="hu" dir="ltr">
-  <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Hírek | Villányi Fitness</title>
-    <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?T" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/ckeditor/ckeditor.css?T" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?T" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?T" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?T" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?T" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?T" />
-<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/cck/theme/content-module.css?T" />
-<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/filefield/filefield.css?T" />
-<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/lightbox2/css/lightbox.css?T" />
-<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/views/css/views.css?T" />
-<link type="text/css" rel="stylesheet" media="all" href="/themes/villanyi/villanyi.css?T" />
-    <script type="text/javascript" src="/misc/jquery.js?T"></script>
-<script type="text/javascript" src="/misc/drupal.js?T"></script>
-<script type="text/javascript" src="sites/default/files/languages/hu_0f4aa80e9858a578614cbdc74831879b.js?T"></script>
-<script type="text/javascript" src="sites/all/modules/lightbox2/js/lightbox.js?T"></script>
-<script type="text/javascript">
-<!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, { "basePath": "/", "lightbox2": { "rtl": "0", "file_path": "/(\\w\\w/)sites/default/files", "default_image": "/sites/all/modules/lightbox2/images/brokenimage.jpg", "border_size": 10, "font_color": "000", "box_color": "fff", "top_position": "", "overlay_opacity": "0.8", "overlay_color": "000", "disable_close_click": 1, "resize_sequence": 0, "resize_speed": 400, "fade_in_speed": 400, "slide_down_speed": 600, "use_alt_layout": 0, "disable_resize": 1, "disable_zoom": 0, "force_show_nav": 0, "show_caption": true, "loop_items": 0, "node_link_text": "View Image Details", "node_link_target": 0, "image_count": "Kép !current / !total", "video_count": "Video !current of !total", "page_count": "Page !current of !total", "lite_press_x_close": "press \x3ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\x3e\x3ckbd\x3ex\x3c/kbd\x3e\x3c/a\x3e to close", "download_link_text": "", "enable_login": false, "enable_contact": false, "keys_close": "c x 27", "keys_previous": "p 37", "keys_next": "n 39", "keys_zoom": "z", "keys_play_pause": "32", "display_image_size": "original", "image_node_sizes": "()", "trigger_lightbox_classes": "", "trigger_lightbox_group_classes": "", "trigger_slideshow_classes": "", "trigger_lightframe_classes": "", "trigger_lightframe_group_classes": "", "custom_class_handler": 0, "custom_trigger_classes": "", "disable_for_gallery_lists": true, "disable_for_acidfree_gallery_lists": true, "enable_acidfree_videos": true, "slideshow_interval": 5000, "slideshow_automatic_start": true, "slideshow_automatic_exit": true, "show_play_pause": true, "pause_on_next_click": false, "pause_on_previous_click": true, "loop_slides": false, "iframe_width": 600, "iframe_height": 400, "iframe_border": 1, "enable_video": 0 } });
-//--><!]]>
-</script>
-  </head>
-  <body>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Hírek | Villányi Fitness</title>
+	<link type="text/css" rel="stylesheet" media="all"
+		  href="/modules/aggregator/aggregator.css?T"/>
+	<link type="text/css" rel="stylesheet" media="all"
+		  href="/modules/ckeditor/ckeditor.css?T"/>
+	<link type="text/css" rel="stylesheet" media="all"
+		  href="/modules/node/node.css?T"/>
+	<link type="text/css" rel="stylesheet" media="all"
+		  href="/modules/system/defaults.css?T"/>
+	<link type="text/css" rel="stylesheet" media="all"
+		  href="/modules/system/system.css?T"/>
+	<link type="text/css" rel="stylesheet" media="all"
+		  href="/modules/system/system-menus.css?T"/>
+	<link type="text/css" rel="stylesheet" media="all"
+		  href="/modules/user/user.css?T"/>
+	<link type="text/css" rel="stylesheet" media="all"
+		  href="sites/all/modules/cck/theme/content-module.css?T"/>
+	<link type="text/css" rel="stylesheet" media="all"
+		  href="sites/all/modules/filefield/filefield.css?T"/>
+	<link type="text/css" rel="stylesheet" media="all"
+		  href="sites/all/modules/lightbox2/css/lightbox.css?T"/>
+	<link type="text/css" rel="stylesheet" media="all"
+		  href="sites/all/modules/views/css/views.css?T"/>
+	<link type="text/css" rel="stylesheet" media="all"
+		  href="/themes/villanyi/villanyi.css?T"/>
+	<script type="text/javascript" src="/misc/jquery.js?T"></script>
+	<script type="text/javascript" src="/misc/drupal.js?T"></script>
+	<script type="text/javascript"
+			src="sites/default/files/languages/hu_0f4aa80e9858a578614cbdc74831879b.js?T"></script>
+	<script type="text/javascript"
+			src="sites/all/modules/lightbox2/js/lightbox.js?T"></script>
+	<script type="text/javascript">
+		<!--//-->
+		<![CDATA[//><!--
+		jQuery.extend(Drupal.settings, {"basePath": "/", "lightbox2": {"rtl": "0", "file_path": "/(\\w\\w/)sites/default/files", "default_image": "/sites/all/modules/lightbox2/images/brokenimage.jpg", "border_size": 10, "font_color": "000", "box_color": "fff", "top_position": "", "overlay_opacity": "0.8", "overlay_color": "000", "disable_close_click": 1, "resize_sequence": 0, "resize_speed": 400, "fade_in_speed": 400, "slide_down_speed": 600, "use_alt_layout": 0, "disable_resize": 1, "disable_zoom": 0, "force_show_nav": 0, "show_caption": true, "loop_items": 0, "node_link_text": "View Image Details", "node_link_target": 0, "image_count": "Kép !current / !total", "video_count": "Video !current of !total", "page_count": "Page !current of !total", "lite_press_x_close": "press \x3ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\x3e\x3ckbd\x3ex\x3c/kbd\x3e\x3c/a\x3e to close", "download_link_text": "", "enable_login": false, "enable_contact": false, "keys_close": "c x 27", "keys_previous": "p 37", "keys_next": "n 39", "keys_zoom": "z", "keys_play_pause": "32", "display_image_size": "original", "image_node_sizes": "()", "trigger_lightbox_classes": "", "trigger_lightbox_group_classes": "", "trigger_slideshow_classes": "", "trigger_lightframe_classes": "", "trigger_lightframe_group_classes": "", "custom_class_handler": 0, "custom_trigger_classes": "", "disable_for_gallery_lists": true, "disable_for_acidfree_gallery_lists": true, "enable_acidfree_videos": true, "slideshow_interval": 5000, "slideshow_automatic_start": true, "slideshow_automatic_exit": true, "show_play_pause": true, "pause_on_next_click": false, "pause_on_previous_click": true, "loop_slides": false, "iframe_width": 600, "iframe_height": 400, "iframe_border": 1, "enable_video": 0}});
+		//--><!
+		]]>
+	</script>
+</head>
+<body>
 
 <!-- Layout -->
 <div id="wrapper">
-    <div id="container">
+	<div id="container">
 
-      <div id="header">
-		<div class="community"><a class="fb" href="http://www.facebook.com/pages/Villanyi-Fitness/124363794255204" target="_blank" title="Villányi Fitness a Facebook-on">Villányi Fitness a Facebook-on</a><a class="rss" href="rssfeed" target="_blank" title="Villányi Fitness hírek RSS">Villányi Fitness hírek RSS</a></div>
-        <div id="szepkartya"></div>
-        <div class="orarend_valtozas"></div>
-		          <ul class="links primary-links"><li class="menu-125 first"><a href="fooldal.html" title="Főoldal">Főoldal</a></li>
-<li class="menu-126"><a href="bemutatkozas.html" title="Bemutatkozás">Bemutatkozás</a></li>
-<li class="menu-127"><a href="szolgaltatasok-es-arak.html" title="Szolgáltatások és árak">Szolgáltatások és árak</a></li>
-<li class="menu-128"><a href="fitness-orarend.html" title="Fitness órarend">Fitness órarend</a></li>
-<li class="menu-129"><a href="edzoink.html" title="Edzőink">Edzőink</a></li>
-<li class="menu-130"><a href="kepgaleria.html" title="Képgaléria">Képgaléria</a></li>
-<li class="menu-131 active-trail last active"><a href="hirek.html" title="Hírek" class="active">Hírek</a></li>
-</ul>        		<div class="top">
-		<div class="nyari_akcio"></div>
-		<div class="top_pic"></div></div>
-      </div> <!-- /header -->
+		<div id="header">
+			<div class="community"><a class="fb"
+									  href="http://www.facebook.com/pages/Villanyi-Fitness/124363794255204"
+									  target="_blank"
+									  title="Villányi Fitness a Facebook-on">Villányi
+				Fitness a Facebook-on</a><a class="rss" href="rssfeed"
+											target="_blank"
+											title="Villányi Fitness hírek RSS">Villányi
+				Fitness hírek RSS</a></div>
+			<div id="szepkartya"></div>
+			<div class="orarend_valtozas"></div>
+			<ul class="links primary-links">
+				<li class="menu-125 first"><a href="fooldal.html"
+											  title="Főoldal">Főoldal</a></li>
+				<li class="menu-126"><a href="bemutatkozas.html"
+										title="Bemutatkozás">Bemutatkozás</a>
+				</li>
+				<li class="menu-127"><a href="szolgaltatasok-es-arak.html"
+										title="Szolgáltatások és árak">Szolgáltatások
+					és árak</a></li>
+				<li class="menu-128"><a href="fitness-orarend.html"
+										title="Fitness órarend">Fitness
+					órarend</a></li>
+				<li class="menu-129"><a href="edzoink.html" title="Edzőink">Edzőink</a>
+				</li>
+				<li class="menu-130"><a href="kepgaleria.html"
+										title="Képgaléria">Képgaléria</a></li>
+				<li class="menu-131 active-trail last active"><a
+						href="hirek.html" title="Hírek" class="active">Hírek</a>
+				</li>
+			</ul>
+			<div class="top">
+				<div class="nyari_akcio"></div>
+				<div class="top_pic"></div>
+			</div>
+		</div> <!-- /header -->
 
-      
-      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
-          
-                              <div class="clear-block">
-            <div id="node-7" class="nodetype-page node">
+
+		<div id="center">
+			<div id="squeeze">
+				<div class="right-corner">
+					<div class="left-corner">
+
+						<div class="clear-block">
+							<div id="node-7" class="nodetype-page node">
 
 
-
-  
-  <div class="content clear-block">
-    <div class="hirelem"><h2>Ünnepi nyitvatartás</h2><h4>2014.12.08</h4><div><p>
-	Kattints a részletekért!</p>
-<!--break-->
-<p>
-	<span style="line-height: 20.3999996185303px;">Dec 24-25-26 9-14 ig &nbsp;</span></p>
-<p>
-	<span style="line-height: 20.3999996185303px;">27-én 8-19ig<br />
-	28-án 8-17ig<br />
-	29-én 7-22ig<br />
-	30-án 7-22ig<br />
-	31-én 9-14ig<br />
-	<br />
-	Jan 1-én Zárva<br />
+								<div class="content clear-block">
+									<div class="hirelem"><h2>Ünnepi
+										nyitvatartás</h2><h4>2014.12.08</h4>
+										<div><p>
+											Kattints a részletekért!</p>
+											<!--break-->
+											<p>
+												<span style="line-height: 20.3999996185303px;">Dec 24-25-26 9-14 ig &nbsp;</span>
+											</p>
+											<p>
+	<span style="line-height: 20.3999996185303px;">27-én 8-19ig<br/>
+	28-án 8-17ig<br/>
+	29-én 7-22ig<br/>
+	30-án 7-22ig<br/>
+	31-én 9-14ig<br/>
+	<br/>
+	Jan 1-én Zárva<br/>
 	Jan 2-án 7-22ig</span></p>
-</div></div><div class="hirelem"><h2>Nyári nyitvatartás</h2><h4>2014.08.04</h4><div><p>
-	&nbsp;Nyári hétvégi nyitvatartás:</p>
-<p>
-	Szombat: 08:00 - 17:00<br />
-	Vasárnap: 08:00 -15:00</p>
-</div></div><div class="hirelem"><h2>Ünnepi nyitvatartás</h2><h4>2013.12.06</h4><div><p>
-	Ünnepi nyitvatartás</p>
-<ul>
-	<li>
-		1<span style="background-color: transparent;">2.24 kedd &nbsp;&nbsp;9 - 14 ig</span></li>
-	<li>
-		25 szerda 9 -14 ig</li>
-	<li>
-		26 csutortok &nbsp;9 - 14 ig</li>
-	<li>
-		27 péntek 7 - 22 ig</li>
-	<li>
-		28 szombat 8 -19 ig</li>
-	<li>
-		29 vasarnap 8 -17 ig</li>
-	<li>
-		30 hétfo 7 -22 ig</li>
-	<li>
-		31 kedd 9 -14 ig</li>
-	<li>
-		01.01 szerda &nbsp;&nbsp;ZARVA</li>
-</ul>
-<p class="p2">
-	 </p>
-<p class="p1">
-	Unnepi orak : &nbsp;&nbsp;&nbsp;</p>
-<ul>
-	<li>
-		25 en 10 -11.30 ig &nbsp;zsirégeto BARBIVAL</li>
-	<li>
-		26 -an 10-11.30 ig alakformálo &nbsp;GABIVAL &nbsp;&nbsp;</li>
-	<li>
-		Dec 31 en kedden &nbsp;&nbsp;&nbsp;10 - 11.30 ig alakformálo Dorkaval</li>
-</ul>
-</div></div><div class="hirelem"><h2>Nyári nyitvatartás vége!</h2><h4>2013.09.11</h4><div><p>
-	&nbsp; Nyitvatartás:</p>
-<p>
-	Szombat: 08:00 - 19:00<br />
-	Vasárnap: 08:00 -17:00</p>
-</div></div><div class="hirelem"><h2>NYÁRI akció</h2><h4>2013.06.21</h4><div><p>
-	AEROBIK ES FITNESS 5 ALKALMAS BÉRLET 3900 ft ( 3 héteg érvényes bérlet )</p>
-</div></div><div class="hirelem"><h2>Ünnepi nyitvatartás és órák</h2><h4>2012.12.08</h4><div><p>
-	Dec 24- hetfon 9-14-ig<br />
-	25-en kedden 9-14-ig<br />
-	26-an szerdan 9-14-ig<br />
-	27-en csutörtökon 7-22-ig<br />
-	28-an penteken 7-22-ig<br />
-	29-en szombaton 8-19-ig</p>
-<!--break-->
-<p>
-	<br />
-	30-an vasarnap 8-17-ig<br />
-	31-en hetfon 9-14-ig<br />
-	Jan 01-en ZARVA</p>
-<p>
-	Unnepi orak<br />
-	25-en kedden 10.00-11.00 ig alakformalo<br />
-	11.00-12.00 ig kick boksz GABIVAL</p>
-<p>
-	26-an szerdan 10.00-11.00 ig alakformalo<br />
-	11.00-12.00ig köredzes BARBIVAL</p>
-<p>
-	31-en hetfön 10.00-11.30 ig alakformalo DORKAVAL</p>
-</div></div><div class="hirelem"><h2>Ünnepi nyitvatartás</h2><h4>2012.10.23</h4><div><p>
-	November 1.-én csütörtökön 9-14-ig<br />
-	2.-án penteken 9-14-ig<br />
-	3.-án szombaton 8-19-ig<br />
-	4.-én vasárnap 8- 17-ig &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
-	tartunk nyitva</p>
-</div></div><div class="hirelem"><h2>Nyári nyitvatartás vége!</h2><h4>2013.09.10</h4><div><p>
-	&nbsp;Nyitvatartás:</p>
-<p>
-	Szombat: 08:00 - 19:00<br />
-	Vasárnap: 08:00 -17:00</p>
-</div></div><div class="hirelem"><h2>Nyári hétvégi nyitvatartás!</h2><h4>2012.07.08</h4><div><p>
-	Szombaton 8-17-ig<br />
-	Vasárnap 8-15-ig</p>
-</div></div><div class="hirelem"><h2>Személyi Edző</h2><h4>2012.03.15</h4><div><p>
-	Rezes Melinda, 06204903693</p>
-</div></div>  </div>
+										</div>
+									</div>
+									<div class="hirelem"><h2>Nyári
+										nyitvatartás</h2><h4>2014.08.04</h4>
+										<div><p>
+											&nbsp;Nyári hétvégi
+											nyitvatartás:</p>
+											<p>
+												Szombat: 08:00 - 17:00<br/>
+												Vasárnap: 08:00 -15:00</p>
+										</div>
+									</div>
+									<div class="hirelem"><h2>Ünnepi
+										nyitvatartás</h2><h4>2013.12.06</h4>
+										<div><p>
+											Ünnepi nyitvatartás</p>
+											<ul>
+												<li>
+													1<span
+														style="background-color: transparent;">2.24 kedd &nbsp;&nbsp;9 - 14 ig</span>
+												</li>
+												<li>
+													25 szerda 9 -14 ig
+												</li>
+												<li>
+													26 csutortok &nbsp;9 - 14 ig
+												</li>
+												<li>
+													27 péntek 7 - 22 ig
+												</li>
+												<li>
+													28 szombat 8 -19 ig
+												</li>
+												<li>
+													29 vasarnap 8 -17 ig
+												</li>
+												<li>
+													30 hétfo 7 -22 ig
+												</li>
+												<li>
+													31 kedd 9 -14 ig
+												</li>
+												<li>
+													01.01 szerda &nbsp;&nbsp;ZARVA
+												</li>
+											</ul>
+											<p class="p2">
+												 </p>
+											<p class="p1">
+												Unnepi orak :
+												&nbsp;&nbsp;&nbsp;</p>
+											<ul>
+												<li>
+													25 en 10 -11.30 ig &nbsp;zsirégeto
+													BARBIVAL
+												</li>
+												<li>
+													26 -an 10-11.30 ig
+													alakformálo &nbsp;GABIVAL
+													&nbsp;&nbsp;</li>
+												<li>
+													Dec 31 en kedden &nbsp;&nbsp;&nbsp;10
+													- 11.30 ig alakformálo
+													Dorkaval
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="hirelem"><h2>Nyári nyitvatartás
+										vége!</h2><h4>2013.09.11</h4>
+										<div><p>
+											&nbsp; Nyitvatartás:</p>
+											<p>
+												Szombat: 08:00 - 19:00<br/>
+												Vasárnap: 08:00 -17:00</p>
+										</div>
+									</div>
+									<div class="hirelem"><h2>NYÁRI akció</h2>
+										<h4>2013.06.21</h4>
+										<div><p>
+											AEROBIK ES FITNESS 5 ALKALMAS BÉRLET
+											3900 ft ( 3 héteg érvényes bérlet
+											)</p>
+										</div>
+									</div>
+									<div class="hirelem"><h2>Ünnepi nyitvatartás
+										és órák</h2><h4>2012.12.08</h4>
+										<div><p>
+											Dec 24- hetfon 9-14-ig<br/>
+											25-en kedden 9-14-ig<br/>
+											26-an szerdan 9-14-ig<br/>
+											27-en csutörtökon 7-22-ig<br/>
+											28-an penteken 7-22-ig<br/>
+											29-en szombaton 8-19-ig</p>
+											<!--break-->
+											<p>
+												<br/>
+												30-an vasarnap 8-17-ig<br/>
+												31-en hetfon 9-14-ig<br/>
+												Jan 01-en ZARVA</p>
+											<p>
+												Unnepi orak<br/>
+												25-en kedden 10.00-11.00 ig
+												alakformalo<br/>
+												11.00-12.00 ig kick boksz
+												GABIVAL</p>
+											<p>
+												26-an szerdan 10.00-11.00 ig
+												alakformalo<br/>
+												11.00-12.00ig köredzes BARBIVAL
+											</p>
+											<p>
+												31-en hetfön 10.00-11.30 ig
+												alakformalo DORKAVAL</p>
+										</div>
+									</div>
+									<div class="hirelem"><h2>Ünnepi
+										nyitvatartás</h2><h4>2012.10.23</h4>
+										<div><p>
+											November 1.-én csütörtökön
+											9-14-ig<br/>
+											2.-án penteken 9-14-ig<br/>
+											3.-án szombaton 8-19-ig<br/>
+											4.-én vasárnap 8- 17-ig &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+											tartunk nyitva</p>
+										</div>
+									</div>
+									<div class="hirelem"><h2>Nyári nyitvatartás
+										vége!</h2><h4>2013.09.10</h4>
+										<div><p>
+											&nbsp;Nyitvatartás:</p>
+											<p>
+												Szombat: 08:00 - 19:00<br/>
+												Vasárnap: 08:00 -17:00</p>
+										</div>
+									</div>
+									<div class="hirelem"><h2>Nyári hétvégi
+										nyitvatartás!</h2><h4>2012.07.08</h4>
+										<div><p>
+											Szombaton 8-17-ig<br/>
+											Vasárnap 8-15-ig</p>
+										</div>
+									</div>
+									<div class="hirelem"><h2>Személyi Edző</h2>
+										<h4>2012.03.15</h4>
+										<div><p>
+											Rezes Melinda, 06204903693</p>
+										</div>
+									</div>
+								</div>
 
-  <div class="clear-block">
-    <div class="meta">
-        </div>
+								<div class="clear-block">
+									<div class="meta">
+									</div>
 
-      </div>
-	
+								</div>
+
+							</div>
+							<div class="node-7-closediv nodetype-page-closediv"></div>
+						</div>
+						<div id="footer">
+							<div class="also_kepgaleria">
+								<a href="kepgaleria.html"
+								   class="go_full_gallery"></a>
+								<div class="kepgaleria_box">
+
+								</div>
+								<div class="partnerek_list_bottom"></div>
+							</div>
+							<div class="sulyzok_footer"></div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
 </div>
-<div class="node-7-closediv nodetype-page-closediv"></div>
-          </div>
-          <div id="footer">
-		  	<div class="also_kepgaleria">
-		  	<a href="kepgaleria.html" class="go_full_gallery"></a>
-		  		<div class="kepgaleria_box">
-		  			
-				  </div>
-		  		<div class="partnerek_list_bottom"></div>
-			  </div>
-		  	<div class="sulyzok_footer"></div>
-		  
-		  </div>
-      </div></div></div></div>
 
-    </div>
-
-  </div>
-  
 
 <script>
 	var current_image_page = 0;
-	get_imagebox_content = function(page){
-		
-		$.post(Drupal.settings.basePath+"load_imagebox",{
-			'page' : page
-		},function(data){
-	
-			
+	get_imagebox_content = function (page) {
+		$.post(Drupal.settings.basePath + "load_imagebox", {
+			'page': page
+		}, function (data) {
 			$(".kepgaleria_box").html(data);
 			Lightbox.initList();
-			
-			$(".prev_video_page , .next_video_page").click(function(event){
+			$(".prev_video_page , .next_video_page").click(function (event) {
 				event.preventDefault();
-				if($(this).attr("class") == 'prev_video_page')
+				if ($(this).attr("class") == 'prev_video_page')
 					current_image_page -= 1;
 				else
 					current_image_page += 1;
-				get_imagebox_content( current_image_page );	
+				get_imagebox_content(current_image_page);
 			})
-
-
 		})
 	}
-
-
-  	 function refreshMidPos(){	
-  	 	if( $(window).height() > $("#container").height() -20 )
-  	 		$(".sulyzok_footer").addClass("fullbottom");
-  	 	else
-  	 		$(".sulyzok_footer").removeClass("fullbottom");
-  	 	
-  	 }
-  	 
-
-
-	$(document).ready(function(){
-		
-		get_imagebox_content( current_image_page );
-		
+	function refreshMidPos() {
+		if ($(window).height() > $("#container").height() - 20)
+			$(".sulyzok_footer").addClass("fullbottom");
+		else
+			$(".sulyzok_footer").removeClass("fullbottom");
+	}
+	$(document).ready(function () {
+		get_imagebox_content(current_image_page);
 		refreshMidPos();
-		$(window).resize(function(){
+		$(window).resize(function () {
 			refreshMidPos();
 		});
-		
-
 	})
-</script>    
-  
-    </body>
+</script>
+
+</body>
 </html>
