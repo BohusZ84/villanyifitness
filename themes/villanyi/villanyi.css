@@ -333,7 +333,7 @@ UL.primary-links LI{
 
 /* ÓRAREND */
 
-#node-4 TD{
+.orarend TD{
 	padding: 5px;
 	border: 1px solid #e2e2e2;
 }
@@ -427,3 +427,24 @@ UL.primary-links LI{
 }
 
 /* */
+table.orarend tr {
+	text-align: center;
+}
+
+table.orarend td {
+	height: 20px;
+}
+
+table.orarend tr td:not(:empty) {
+	background-color: #f6f6f6;
+}
+
+table.orarend tr:first-child td:not(:empty),
+table.orarend tr td.ido {
+	background-color: #d8e3f6;
+}
+
+table.orarend tr td.ido {
+	border-bottom: 1px solid #7F7F7F;
+	border-top: 1px solid #7F7F7F;
+}
